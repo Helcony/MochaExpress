@@ -39,7 +39,7 @@ const swiper = new Swiper('.swiper-container', {
   },
   mousewheel: true,
   keyboard: true,
-  loop: true,
+  loop: false,
   breakpoints: {
     767: {
       slidesPerView: 2,
@@ -58,7 +58,7 @@ const scrollReveal = ScrollReveal({
 })
 
 scrollReveal.reveal(
-  `#home .image, #home .text,
+    `#home .image, #home .text,
   #products header, #products .card,
   #about .image, #about .text,
   #testimonials header, #testimonials .testimonials,
