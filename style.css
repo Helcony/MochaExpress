@@ -6,6 +6,11 @@
   max-width: 100%;
 }
 
+html {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 ul {
   list-style: none;
 }
